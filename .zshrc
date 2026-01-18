@@ -1,24 +1,19 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+# for zsh
+setopt autocd
 
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-EDITOR=/bin/nvim
+alias vim=nvim
+alias rc='vim ~/.zshrc'
+alias zu='source ~/.zshrc'
+alias nrc='vim ~/.config/nvim/'
+
+EDITOR=/opt/homebrew/bin/nvim
 LANG='en_US.UTF-8'
 
 #
 # git aliases
 #
-
-alias vim='nvim'
-alias rc='vim ~/.bashrc'
-alias ali='vim ~/bash/aliases.sh'
-alias bu='. ~/.bashrc'
 
 alias gs='git status'
 alias gc='git commit -m'
