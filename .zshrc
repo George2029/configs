@@ -1,3 +1,5 @@
+[[ -o interactive ]] || return
+
 # for zsh
 setopt autocd
 

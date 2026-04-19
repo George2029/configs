@@ -1,5 +1,10 @@
 {
   "tsserver.enable": true,
   "suggest.autoTrigger": "none",
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "javascript", "typescriptreact", "javascriptreact"]
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "javascript", "typescriptreact", "javascriptreact"],
+  "workspace.ignoredFolders": [
+    "$HOME",
+    "$HOME/.cargo/**",
+    "$HOME/.rustup/**"
+  ]
 }
