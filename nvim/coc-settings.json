@@ -2,6 +2,7 @@
   "tsserver.enable": true,
   "suggest.autoTrigger": "none",
   "coc.preferences.formatOnSaveFiletypes": ["typescript", "javascript", "typescriptreact", "javascriptreact"],
+  "rust-analyzer.updates.prompt": false,
   "workspace.ignoredFolders": [
     "$HOME",
     "$HOME/.cargo/**",
