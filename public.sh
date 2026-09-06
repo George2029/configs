@@ -4,10 +4,6 @@ alias pub='vim "$CONFIGS_DIR"/public.sh'
 alias lsa='ls -a --color=auto'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias vim=nvim
-alias rc='vim ~/.zshrc'
-alias zu='source ~/.zshrc'
-alias nrc='cd ~/.config/nvim/'
 
 #
 # git aliases
@@ -30,6 +26,3 @@ alias gu='git add -u'
 alias gds='git diff --staged'
 alias gdn='git diff '
 alias gsu='git stash -u'
-
-# cargo aliases
-alias cr='cargo run'
