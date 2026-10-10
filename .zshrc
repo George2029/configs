@@ -10,6 +10,6 @@ alias cfg='cd "$CONFIGS_DIR"'
 source "$CONFIGS_DIR"/public.sh
 
 [[ -d "$CONFIGS_DIR"/private ]] && \
-  for f in "$CONFIGS_DIR"/private/*; \
+  for f in "$CONFIGS_DIR"/private/*; do
     source $f
-
+  done
