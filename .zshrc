@@ -1,6 +1,6 @@
-[[ -o interactive ]] || return
+[[ $- == *i* ]] || return
 # for zsh
-setopt autocd
+[[ -n "$ZSH_VERSION" ]] && setopt autocd
 
 LANG='en_US.UTF-8'
 
